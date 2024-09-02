@@ -1,21 +1,34 @@
-main()
-{
-    printf("          |\n");
-    printf("        --+--\n");
-    printf("    /  \\  |\n");
-    printf("   |    | |\n");
-    printf("   \\____/ |\n");
-    printf("   ( .. ) |\n");
-    printf("   /\\__/\\ |      WOLOLOOOO\n");
-    printf("  /\\ qp /\\|\n");
-    printf(" /  |  |  |\n");
-    printf("/|  |db| /\\`|\n");
-    printf("| \\ |  | \\|_|\n");
-    printf("\\  \\|qp|  |\n");
-    printf(" \\__/  |  |\n");
-    printf(" |/||db|  |\n");
-    printf(" |  |  |  |\n");
-    printf("-=Welcome to the CONVERTER!=-\n");
+#include <stdio.h>
+#include "temp.h"
+#include "temp_ui.c"
 
-    // Run start dialog/menu here.
+int main(){
+
+    display_intro();
+
+    display_menu();
+
+    int option;
+    scanf("%d", &option);
+
+    switch (option)
+    {
+    case 1:
+        display_temperature_menu();
+        break;
+
+    case 2:
+        display_distance_menu();
+        break;
+    
+    case 3:
+        display_weight_menu();
+        break;
+    
+    default:
+        break;
+    }
+
+    return 0;
 }
+
