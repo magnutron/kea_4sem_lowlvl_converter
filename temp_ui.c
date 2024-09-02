@@ -1,59 +1,4 @@
-#include "fahrenheit_to_celsius.c"
-#include "celsius_to_fahrenheit.c"
-#include "celsius_to_kelvin.c"
-#include "kelvin_to_celsius.c"
-#include "fahrenheit_to_kelvin.c"
-#include "kelvin_to_fahrenheit.c"
-
-void display_intro(){
-    printf("          |\n");
-    printf("        --+--\n");
-    printf("    /  \\  |\n");
-    printf("   |    | |\n");
-    printf("   \\____/ |\n");
-    printf("   ( .. ) |\n");
-    printf("   /\\__/\\ |      WOLOLOOOO\n");
-    printf("  /\\ qp /\\|\n");
-    printf(" /  |  |  |\n");
-    printf("/|  |db| /\\`|\n");
-    printf("| \\ |  | \\|_|\n");
-    printf("\\  \\|qp|  |\n");
-    printf(" \\__/  |  |\n");
-    printf(" |/||db|  |\n");
-    printf(" |  |  |  |\n");
-    printf("-=Welcome to the CONVERTER!=-\n");
-    printf("This program helps with converting different units\n");
-    printf("_________________________________________________________\n");
-}
-
-void display_menu(){
-    printf("Please select an option from the menu below\n");
-    printf("1. Convert temperatures\n");
-    printf("2. Convert distances\n");
-    printf("3. Convert weights\n");
-    printf("5. Exit\n");
-    printf("_________________________________________________________\n");
-    int option;
-    scanf("%d", &option);
-
-    switch (option)
-    {
-    case 1:
-        display_temperature_menu();
-        break;
-
-    case 2:
-        display_distance_menu();
-        break;
-    
-    case 3:
-        display_weight_menu();
-        break;
-    
-    default:
-        break;
-    }
-}
+#include "temp_converters.c"
 
 void display_temperature_menu(){
     printf("Please select an option from the menu below\n");
@@ -111,53 +56,9 @@ void display_temperature_menu(){
         printf("_________________________________________________________\n");
         display_menu();
     }
-
 }
 
-void display_distance_menu(){
-    printf("Please select an option from the menu below\n");
-    printf("1. Convert from Kilometers -> Miles\n");
-    printf("2. Convert from Miles -> Kilometers\n");
-    printf("3. Convert from Kilometers -> Schoinion\n");
-    printf("4. Convert from Schoinion -> Kilometers\n");
-    printf("5. Convert from Miles -> Schoinion\n");
-    printf("6. Convert from Schoinion -> Miles\n");
-    printf("7. Return to main menu\n");
-    printf("_________________________________________________________\n");
 
-    int option;
-    scanf("%d", &option);
-
-    switch (option)
-    {
-    case 1:
-        printf("Enter the distance in Kilometers\n");
-        break;
-
-    case 2:
-        printf("Enter the distance in Miles\n");
-        break;
-
-    case 3:
-        printf("Enter the distance in Kilometers\n");
-        break;
-
-    case 4:
-        printf("Enter the distance in Schoinion\n");
-        break; 
-
-    case 5:
-        printf("Enter the distance in Miles\n");
-        break;
-
-    case 6:
-        printf("Enter the distance in Schoinion\n");
-        break;
-
-    default:
-        break;
-    }
-}
 
 void display_weight_menu(){
     printf("Please select an option from the menu below\n");
