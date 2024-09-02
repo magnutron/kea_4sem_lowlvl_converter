@@ -1,4 +1,5 @@
 void display_temperature_menu(){
+    printf("_________________________________________________________\n");
     printf("Please select an option from the menu below\n");
     printf("1. Convert from Celsius to Fahrenheit\n");
     printf("2. Convert from Fahrenheit to Celsius\n");

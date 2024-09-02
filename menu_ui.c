@@ -22,6 +22,10 @@ void display_menu(){
         display_weight_menu();
         break;
     
+    case 5:
+        exit(0);
+        break;
+    
     default:
         break;
     }
