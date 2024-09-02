@@ -1,10 +1,10 @@
-
+void display_menu();
 void display_temperature_menu();
 void display_distance_menu();
 void display_weight_menu();
-void kilometers_to_miles();
-void miles_to_kilometers();
-void kilometers_to_schoinion();
-void schoinion_to_kilometers();
-void miles_to_schoinion();
-void schoinion_to_miles();
+int kelvin_to_fahrenheit(int kelvin);
+int kelvin_to_celsius(int kelvin);
+int fahrenheit_to_kelvin(int fahrenheit);
+int fahrenheit_to_celsius(int fahrenheit);
+int celsius_to_kelvin(int celsius);
+int celsius_to_fahrenheit(int celsius);

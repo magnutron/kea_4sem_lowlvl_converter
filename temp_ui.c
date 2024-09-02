@@ -1,6 +1,3 @@
-#include "temp_converters.c"
-#include "distConverter.c"
-
 void display_temperature_menu(){
     printf("Please select an option from the menu below\n");
     printf("1. Convert from Celsius to Fahrenheit\n");
@@ -58,6 +55,3 @@ void display_temperature_menu(){
         display_menu();
     }
 }
-
-
-

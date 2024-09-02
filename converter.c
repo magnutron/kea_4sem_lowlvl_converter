@@ -1,6 +1,9 @@
 #include <stdio.h>
-#include "temp.h"
+#include "temp_converters.c"
 #include "temp_ui.c"
+#include "wght_ui.c"
+#include "dist_ui.c"
+#include "distConverter.c"
 #include "menu_ui.c"
 
 int main(){

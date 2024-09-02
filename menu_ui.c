@@ -1,5 +1,3 @@
-#include "temp_ui.c"
-
 void display_menu(){
     printf("Please select an option from the menu below\n");
     printf("1. Convert temperatures\n");
