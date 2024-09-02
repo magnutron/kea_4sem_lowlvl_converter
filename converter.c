@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "temp_converters.c"
 #include "temp_ui.c"
-#include "wght_ui.c"
+#include "weight_converters.c"
+#include "weight_ui.c"
 #include "dist_ui.c"
 #include "dist_converters.c"
 #include "menu_ui.c"
