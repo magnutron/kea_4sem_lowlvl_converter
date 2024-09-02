@@ -3,7 +3,7 @@
 #include "temp_ui.c"
 #include "wght_ui.c"
 #include "dist_ui.c"
-#include "distConverter.c"
+#include "dist_converters.c"
 #include "menu_ui.c"
 
 int main(){
