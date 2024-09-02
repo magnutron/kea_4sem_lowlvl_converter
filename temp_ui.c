@@ -17,37 +17,37 @@ void display_temperature_menu(){
         printf("Enter the temperature in Celsius\n");
         scanf("%d", &option);
         printf("The temperature in Fahrenheit is %d\n", celsius_to_fahrenheit(option));
-        break;
+        display_temperature_menu();
 
     case 2:
         printf("Enter the temperature in Fahrenheit\n");
         scanf("%d", &option);
         printf("The temperature in Celsius is %d\n", fahrenheit_to_celsius(option));
-        break;
+        display_temperature_menu();
 
     case 3:
         printf("Enter the temperature in Celsius\n");
         scanf("%d", &option);
         printf("The temperature in Kelvin is %d\n", celsius_to_kelvin(option));
-        break;
+        display_temperature_menu();
 
     case 4:
         printf("Enter the temperature in Kelvin\n");
         scanf("%d", &option);
         printf("The temperature in Celsius is %d\n", kelvin_to_celsius(option));
-        break;
+        display_temperature_menu();
     
     case 5:
         printf("Enter the temperature in Fahrenheit\n");
         scanf("%d", &option);
         printf("The temperature in Kelvin is %d\n", fahrenheit_to_kelvin(option));
-        break;
+        display_temperature_menu();
     
     case 6:
         printf("Enter the temperature in Kelvin\n");
         scanf("%d", &option);
         printf("The temperature in Fahrenheit is %d\n", kelvin_to_fahrenheit(option));
-        break;
+        display_temperature_menu();
 
     case 7:
         printf("\e[1;1H\e[2J");
