@@ -1,3 +1,4 @@
+
 void display_distance_menu(){
     printf("Please select an option from the menu below\n");
     printf("1. Convert from Kilometers -> Miles\n");
@@ -15,27 +16,27 @@ void display_distance_menu(){
     switch (option)
     {
     case 1:
-        printf("Enter the distance in Kilometers\n");
+        kilometers_to_miles();
         break;
 
     case 2:
-        printf("Enter the distance in Miles\n");
+        miles_to_kilometers();
         break;
 
     case 3:
-        printf("Enter the distance in Kilometers\n");
+        kilometers_to_schoinion();
         break;
 
     case 4:
-        printf("Enter the distance in Schoinion\n");
+        schoinion_to_kilometers();
         break; 
 
     case 5:
-        printf("Enter the distance in Miles\n");
+        miles_to_schoinion();
         break;
 
     case 6:
-        printf("Enter the distance in Schoinion\n");
+        schoinion_to_miles();
         break;
 
     default:
