@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "temp_converters.c"
 #include "temp_ui.c"
 #include "weight_converters.c"

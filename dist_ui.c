@@ -1,4 +1,5 @@
-
+#include <stdio.h>
+#include "dist_converters.h"
 void display_distance_menu(){
     printf("Please select an option from the menu below\n");
     printf("1. Convert from Kilometers -> Miles\n");

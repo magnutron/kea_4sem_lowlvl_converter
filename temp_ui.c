@@ -1,3 +1,4 @@
+#include "temp.h"
 void display_temperature_menu(){
     printf("_________________________________________________________\n");
     printf("Please select an option from the menu below\n");
